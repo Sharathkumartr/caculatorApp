@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sharath's Calculator</title>
+   <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Background numbers -->
+    <div class="background-numbers" id="backgroundNumbers"></div>
+
+    <div class="calculator-container">
+        <h1 class="title">Sharath's Calculator</h1>
+        <div class="calculator">
+            <div class="display" id="display">0</div>
+            <div class="buttons">
+                <button class="btn light" onclick="clearAll()">AC</button>
+                <button class="btn light" onclick="toggleSign()">+/-</button>
+                <button class="btn light" onclick="percentage()">%</button>
+                <button class="btn operator" onclick="setOperation('÷')" id="divide">÷</button>
+                
+                <button class="btn number" onclick="inputNumber('7')">7</button>
+                <button class="btn number" onclick="inputNumber('8')">8</button>
+                <button class="btn number" onclick="inputNumber('9')">9</button>
+                <button class="btn operator" onclick="setOperation('×')" id="multiply">×</button>
+                
+                <button class="btn number" onclick="inputNumber('4')">4</button>
+                <button class="btn number" onclick="inputNumber('5')">5</button>
+                <button class="btn number" onclick="inputNumber('6')">6</button>
+                <button class="btn operator" onclick="setOperation('-')" id="subtract">-</button>
+                
+                <button class="btn number" onclick="inputNumber('1')">1</button>
+                <button class="btn number" onclick="inputNumber('2')">2</button>
+                <button class="btn number" onclick="inputNumber('3')">3</button>
+                <button class="btn operator" onclick="setOperation('+')" id="add">+</button>
+                
+                <button class="btn number zero" onclick="inputNumber('0')">0</button>
+                <button class="btn number" onclick="inputDecimal()">.</button>
+                <button class="btn operator" onclick="calculate()" id="equals">=</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+       
+</body>
+</html>
