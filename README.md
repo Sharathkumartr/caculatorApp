@@ -1,6 +1,6 @@
 # 🧮 Sharath's Calculator
 
-A simple and stylish calculator built using **HTML, CSS, and JavaScript**.  
+A simple and IOS style calculator built using **HTML, CSS, and JavaScript**.  
 It performs basic arithmetic operations with a clean and modern UI.
 
 ![Calculator Output](calculatorOutput.png)
